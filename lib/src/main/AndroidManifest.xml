@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="org.the_jk.lintremovenode.lib">
+  <application>
+      <provider
+          android:name="org.the_jk.lintremovenode.LibContentProvider"
+          android:authorities="${applicationId}.LibContentProvider"
+          android:exported="false" />
+  </application>
+</manifest>
