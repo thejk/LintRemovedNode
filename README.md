@@ -11,8 +11,8 @@ LibContentProvider.
 
 This is incorrect tho, for two reasons:
 1) ExportedContentProvider isn't exported, as declared in lib manifest
-   it has exported=false. If tools:node="remove" was removed no warning
-   would be issued.
+   it has exported=false. If the <provider> node was removed from main manifest
+   no warning would be issued.
 
 2) Even if ExportedContentProvider was exported, the fact that it is marked
    to be removed in the app manifest should still silence the check.
